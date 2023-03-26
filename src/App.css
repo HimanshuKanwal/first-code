@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+/* ul{
+  list-style-type: none;
+  margin-top: 0;
+} */
+
+
+.header{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-color: purple;
+  border: 5px solid black;
+  color: white;
+  padding: 20px;
+}
+.header-img{
+  height: 100%;
+  margin-right: 15px;
+}
+.header-title{
+  font-size: 2 rem;
+  margin-right: auto;
+}
+.header-heading{
+  font-size: 1.25 rem;
+}
+main{
+  padding: 36px;
+}
+.form{
+  display: grid;
+  grid-template: 40px 40px/1fr 1fr;
+  gap: 17px;
+}
+.form-input{
+  border-radius: 10px;
+  border: 1px solid black;
+  text-indent: 25px;
+}
+.form-button{
+  grid-column: 1/-1;
+  border-radius: 10px;
+  background-color: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.test-img{
+  height: 400px;
+  width: 600px;
+}
+.form-img{
+  padding-top: 36px;
+  height: 400px;
+  width: 600px;
+}
